@@ -5,3 +5,7 @@ output "diamond_dogs_url" {
 output "diamond_dogs_ip" {
   value = "http://${aws_eip.diamond_dogs.public_ip}"
 }
+
+output "project" {
+  value = var.project
+}
